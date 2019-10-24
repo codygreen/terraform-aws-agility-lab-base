@@ -17,7 +17,7 @@ variable "region" {
 }
 
 variable "azs" {
-  default     = ["us-east-2a", "us-east-2b"]
+  default     = ["us-east-2a"]
   description = "AWS Availability Zones in the choosen region"
 }
 

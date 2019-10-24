@@ -30,7 +30,7 @@ module "vpc" {
     cidrsubnet(var.cidr, 8, num + 10)
   ]
 
-  enable_nat_gateway = true
+  enable_nat_gateway = false
 
   tags = {
     Name        = format("%s-vpc", var.prefix)
